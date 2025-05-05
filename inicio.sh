@@ -19,7 +19,7 @@ After=network.target
 User=root
 Group=www-data
 WorkingDirectory=$PROYECTO_DIR
-ExecStart=/usr/bin/python3 $PROYECTO_DIR/manage.py runserver 0.0.0.0:80
+ExecStart=/usr/bin/python3 $PROYECTO_DIR/manage.py runserver 80
 Restart=always
 
 [Install]
