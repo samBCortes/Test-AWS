@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Configuración
-PROYECTO_DIR="./Test-AWS"
+PROYECTO_DIR="/home/ubuntu/Test-AWS"
 SERVICE_NAME="test-server"
 
 # Verificar que el directorio exista
