@@ -1,3 +1,4 @@
+-#!/bin/sh
 
 # Configuración
 PROYECTO_DIR="./Test-AWS"
