@@ -1,13 +1,6 @@
-#!/bin/sh
-sudo clear
-sudo apt-get update
-git clone https://github.com/samBCortes/Test-AWS
-cd testAWS
-sudo apt install python3-pip -y
-sudo pip3 install -r requirements.txt
 
 # Configuración
-PROYECTO_DIR="./testAWS"
+PROYECTO_DIR="./Test-AWS"
 SERVICE_NAME="test-server"
 
 # Verificar que el directorio exista
